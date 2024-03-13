@@ -1,0 +1,23 @@
+{
+    "name": "back/practica",
+    "description": "creacion de primer proyecto con composer",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Back\\Practica\\": "app/",
+            "config\\":"app/config/",
+            "controller\\":"app/controller/",
+            "model\\":"app/model/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yakumo-Sahashi",
+            "email": "Diego.Bollas@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "vlucas/phpdotenv": "^5.6@dev"
+    }
+}
